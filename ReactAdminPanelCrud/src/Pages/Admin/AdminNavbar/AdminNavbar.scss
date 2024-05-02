@@ -1,0 +1,15 @@
+.navbar{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: red;
+        transition: 1s;
+    }
+    min-height: 50px;
+}
